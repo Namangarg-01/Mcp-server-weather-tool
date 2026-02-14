@@ -247,25 +247,6 @@ pip install -r requirements.txt
 npm install -g @modelcontextprotocol/inspector
 ```
 
----
-
-## 🎯 Learning Resources
-
-### MCP (Model Context Protocol)
-- [Official MCP Documentation](https://modelcontextprotocol.io/)
-- [FastMCP GitHub](https://github.com/jlowin/fastmcp)
-- [MCP Specification](https://spec.modelcontextprotocol.io/)
-
-### Weather API
-- [wttr.in Documentation](https://github.com/chubin/wttr.in)
-- [wttr.in Format Options](https://wttr.in/:help)
-
-### Python Concepts
-- [Async/Await in Python](https://docs.python.org/3/library/asyncio.html)
-- [Type Hints Guide](https://docs.python.org/3/library/typing.html)
-- [urllib Documentation](https://docs.python.org/3/library/urllib.html)
-
----
 
 ## 🚀 Future Enhancements
 
