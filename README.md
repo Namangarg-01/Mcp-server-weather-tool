@@ -1,4 +1,4 @@
-# StoryForge-Agent - Weather MCP Tool 🌤️
+# Weather MCP Tool 🌤️
 
 A Model Context Protocol (MCP) server that provides real-time weather information using the **wttr.in** API. This project was created during the learning phase of understanding MCP systems.
 
@@ -67,8 +67,8 @@ chmod +x setup.sh run.sh
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/Namangarg-01/StoryForge-Agent.git
-   cd StoryForge-Agent
+   git clone https://github.com/Namangarg-01/Mcp-server-weather-tool.git
+   cd Mcp-server-weather-tool
 ```
 
 2. **Create virtual environment**
@@ -126,7 +126,7 @@ To use this MCP server with Claude Desktop, update your configuration file:
   "mcpServers": {
     "weather": {
       "command": "python",
-      "args": ["C:/Users/YourName/Desktop/StoryForge-Agent/main.py"]
+      "args": ["C:/Users/YourName/Desktop/Mcp-server-weather-tool/main.py"]
     }
   }
 }
@@ -197,7 +197,7 @@ def get_weather(location: str) -> dict:
 
 ## 📁 Project Structure
 ```
-StoryForge-Agent/
+Mcp-server-weather-tool/
 ├── tools/
 │   └── weather.py          # Weather fetching logic
 ├── main.py                 # MCP server entry point
@@ -314,7 +314,7 @@ MIT License - see LICENSE file for details.
 
 **Naman Garg**
 - GitHub: [@Namangarg-01](https://github.com/Namangarg-01)
-- Project: [StoryForge-Agent](https://github.com/Namangarg-01/StoryForge-Agent)
+- Project: [Mcp-server-weather-tool](https://github.com/Namangarg-01/Mcp-server-weather-tool)
 
 ---
 
